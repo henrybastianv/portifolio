@@ -1,64 +1,76 @@
-body {
-  margin: 0;
-  padding: 0;
-  background: #ffffff;
-  color: #111;
-  font-family: 'Inter', sans-serif;
-  line-height: 1.6;
-  font-size: 16px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Henry Bastian V | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Henry</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-main {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 80px 20px;
-}
+  <section class="hero">
+    <div class="container">
+      <h2>Hello, I'm Henry</h2>
+      <p>Electrical and Electronics Engineering Student passionate about embedded systems and sustainable tech.</p>
+    </div>
+  </section>
 
-.hero {
-  text-align: center;
-  margin-bottom: 60px;
-}
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I’m an EEE student from Kerala, India. I work on practical tech projects like EV prototyping, safety automation, and smart systems using ESP32. I'm always ready to learn and build.</p>
+    </div>
+  </section>
 
-.hero h1 {
-  font-size: 2.8rem;
-  font-family: 'Playfair Display', serif;
-  margin: 0;
-}
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Smart Safety System</h3>
+          <p>ESP32 + sensors for fire, smoke, water detection, and solenoid valve control.</p>
+        </div>
+        <div class="project-card">
+          <h3>EV Four-Wheeler</h3>
+          <p>Prototype using 48V 2000W hub motor and lithium-ion battery.</p>
+        </div>
+        <div class="project-card">
+          <h3>Tachometer</h3>
+          <p>Microcontroller-based RPM meter for motors.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-.subtitle {
-  font-size: 1.1rem;
-  font-weight: 300;
-  color: #555;
-}
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:henrybastianv@gmail.com">henrybastianv@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/henrybastianv" target="_blank">@henrybastianv</a></p>
+      <p>Instagram: <a href="https://instagram.com/henry_bastian_v" target="_blank">@henry_bastian_v</a></p>
+    </div>
+  </section>
 
-.about p {
-  margin-bottom: 24px;
-}
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Henry Bastian V. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
 
-footer {
-  text-align: center;
-  margin-top: 80px;
-  font-size: 0.9rem;
-  color: #666;
-}
-
-footer a {
-  color: #111;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-@media (max-width: 600px) {
-  main {
-    padding: 40px 20px;
-  }
-
-  .hero h1 {
-    font-size: 2.2rem;
-  }
-}
 
 
